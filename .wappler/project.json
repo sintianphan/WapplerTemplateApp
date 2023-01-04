@@ -1,0 +1,59 @@
+{
+  "projectName": "WapplerTemplateApp",
+  "styleFile": "/css/style.css",
+  "assetsFolder": "/assets",
+  "designFramework": "bootstrap4",
+  "frameworks": [
+    {
+      "name": "jquery_slim_33",
+      "type": "cdn"
+    },
+    {
+      "name": "fontawesome_4",
+      "type": "cdn"
+    },
+    {
+      "name": "bootstrap4",
+      "type": "local"
+    },
+    {
+      "name": "appConnect",
+      "type": "local"
+    }
+  ],
+  "hostingType": "docker",
+  "projectServerModel": "node",
+  "runtime": "capacitor",
+  "webRootFolder": "/public",
+  "useRouting": true,
+  "addBase": true,
+  "routingHandler": "node",
+  "projectLinksType": "site",
+  "targets": [
+    {
+      "name": "Development",
+      "remoteURL": "http://localhost:8101",
+      "webServerPort": 8101,
+      "webServerLang": "node",
+      "targetType": "docker",
+      "webServer": "node",
+      "NodeVersion": "16",
+      "NodeOS": "bullseye",
+      "NodeImageType": "slim",
+      "webLoggingMaxFiles": "5",
+      "webLoggingMaxFileSize": "10m",
+      "databaseLoggingMaxFiles": "5",
+      "databaseLoggingMaxFileSize": "10m",
+      "dockerTimezone": "Etc/UTC",
+      "databaseType": "mysql",
+      "mySQLVersion": "8.0.x",
+      "databasePort": 9906,
+      "mySQL_rootPassword": "O4eOZLma",
+      "mySQL_databaseName": "wapplertemplateapp",
+      "mySQL_username": "db_user",
+      "mySQL_password": "B40B9cFn"
+    }
+  ],
+  "activeTarget": "Development",
+  "projectType": "web"
+}
